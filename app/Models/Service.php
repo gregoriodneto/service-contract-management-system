@@ -8,7 +8,7 @@ class Service extends Model
 {
     protected $fillable = [
         "service_provider_id",
-        "company_name",
+        "name",
         "phone",
         "address",
     ];
